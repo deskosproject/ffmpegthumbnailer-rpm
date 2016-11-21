@@ -1,6 +1,6 @@
 Name:           ffmpegthumbnailer
 Version:        2.0.9
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Lightweight video thumbnailer that can be used by file managers
 
 Group:          Applications/Multimedia
@@ -69,6 +69,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Nov 21 2016 Ricardo Arguello <rarguello@deskosproject.org> - 2.0.9-2
+- Rebuilt for DeskOS
+
 * Thu Apr 09 2015 Magnus Tuominen <magnus.tuominen@gmail.com> - 2.0.9-1
 - 2.0.9
 
